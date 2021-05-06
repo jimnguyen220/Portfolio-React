@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({photo, title, description, githubBtn, deployBtn}) {
     return(
-        <div className="col-sm-12 col-md-6 col-lg-6 card" style="width:18rem">
+        <div className="col-sm-12 col-md-6 col-lg-6 card">
             <img className="card-img-top" src={photo}></img>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
