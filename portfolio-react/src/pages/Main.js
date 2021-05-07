@@ -7,10 +7,10 @@ function Main() {
         <>
             <Row />
             <Jumbotron>
-            <div className="col-md-4">
-
+            <div className="col-md-4 col-lg-4">
+                <img src="./assets/myPhoto.jpg"></img>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-8 bg-secondary">
+            <div className="col-sm-12 col-md-8 col-lg-8 bg-secondary">
                 <h2>Hello World!</h2>
                 <p>
                     My name is Jim Nguyen and I am a full stack web development student at the University of MN's coding

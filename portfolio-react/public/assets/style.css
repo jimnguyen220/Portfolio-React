@@ -3,39 +3,3 @@ body {
 }
 
 
-h2 {
-    font-size: medium;
-    font-weight: bold;
-}
-
-.contactContent {
-    padding-bottom: 20px;
-}
-
-.card {
-    background-color: lightgray;
-    border-style: black;
-}
-
-
-  
-
-
-/* bootstrap breakpoint - anything larger will not follow rule*/
-@media screen and (max-width: 992px) {
-
-    
-}
-
-
-/* bootstrap breakpoint - anything larger will not follow rule*/
-@media screen and (max-width: 768px) {
-
-}
-
-
-/* bootstrap breakpoint - anything larger will not follow rule*/
-@media screen and (max-width: 480px) {
-
-}
-
