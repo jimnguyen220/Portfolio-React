@@ -1,14 +1,14 @@
 import React from "react";
 import Row from "../components/Row"
-import Jumbotron from "../components/Jumbotron"
+
 
 function Main() {
     return (
         <>
             <Row />
-            <Jumbotron>
+
             <div className="col-md-4 col-lg-4">
-                <img src="./assets/myPhoto.jpg"></img>
+                <img src={process.env.PUBLIC_URL + '/assets/myPhoto.png'} alt="myPhoto"></img>
             </div>
             <div className="col-sm-12 col-md-8 col-lg-8 bg-secondary">
                 <h2>Hello World!</h2>
@@ -24,13 +24,11 @@ function Main() {
                     to browse them and get in contact if you have any questions.
                 </p>
                 <p>
-                    I have also included a few links in the Nav Bar above to my LinkedIn profile, Github repo and a downloadable link of my resume.  If you have any additional questions, I can be contacted at jimnguyen220@gmail.com or on text/phone at 651-252-4113.
+                    I have also included a few links under the 'Contact Me' page.  You will find links to my Github, 
+                    LinkedIn and a downloadable link of my resume. If you have any additional questions, you will also find
+                    my contact information there as well.
                 </p>
             </div>
-            </Jumbotron>
-
-
-
 
         </>
     )

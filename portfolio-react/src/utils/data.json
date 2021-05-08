@@ -1,27 +1,27 @@
 [
     {
-        "photo":"./assets/maps.PNG",
+        "photo":"/assets/maps.PNG",
         "title": "Feed.Me",
         "description": "First group project in Bootcamp.  App that helps you decide where eat and gets you directions from your current location",
         "githubBtn": "https://github.com/jimnguyen220/projectOneFamilyMatters",
         "deployBtn": "https://jimnguyen220.github.io/projectOneFamilyMatters/"
     },
     {
-        "photo":"./assets/schedulerAfter.jpg",
+        "photo":"/assets/schedulerAfter.jpg",
         "title": "Workday Scheduler",
         "description": "Using Momentjs to create an interactive scheduler that updated with the current time",
         "githubBtn": "https://github.com/jimnguyen220/dayPlanner",
         "deployBtn": "https://jimnguyen220.github.io/dayPlanner/"
     },
     {
-        "photo":"./assets/park-finder.png",
+        "photo":"/assets/park-finder.png",
         "title": "Park-Finder",
         "description": "Created an app to search park amenities and display location",
         "githubBtn": "https://github.com/jimnguyen220/park-finder-app",
         "deployBtn": "https://park-finder-stp.herokuapp.com/"
     },
     {
-        "photo":"./assets/finishedWeatherAPI.jpg",
+        "photo":"/assets/finishedWeatherAPI.jpg",
         "title": "WeatherAPI",
         "description": "Using Open Weather API to get current weather and 5 day forecast",
         "githubBtn": "https://github.com/jimnguyen220/weatherAPI",

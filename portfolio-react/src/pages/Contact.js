@@ -12,7 +12,7 @@ function Contact() {
                     <h6 className="card-subtitle mb-2 text-muted">jimnguyen220@gmail.com</h6>
                     <a href="https://github.com/jimnguyen220" className="card-link">Github</a>
                     <a href="https://www.linkedin.com/in/jim-nguyen-mn" className="card-link">LinkedIn</a>
-                    <a href="./assets/Resume21121.pdf" className="card-link" download="resume">Downloadable Resume</a>
+                    <a href={process.env.PUBLIC_URL +"/assets/Resume21121.pdf"} className="card-link" download="resume">Downloadable Resume</a>
                 </div>
             </div>
         </Jumbotron>
